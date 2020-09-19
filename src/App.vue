@@ -2,9 +2,9 @@
   <div id="app" class="wrapper">
     <HeaderComponent />
     <div class="main">
-      <ListCardsComponent />
+      <ListCardsComponent class="container" />
     </div>
-    <FooterComponent />
+    <FooterComponent :footer="footer" />
   </div>
 </template>
 
@@ -19,6 +19,14 @@ export default {
     HeaderComponent,
     ListCardsComponent,
     FooterComponent
+  },
+  data(){
+    return{
+      footer: {
+        'name': "Carlos Santillan Espinoza",
+        'challenges': "DevChallenges.io"
+      }
+    }
   }
 }
 </script>

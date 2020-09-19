@@ -1,11 +1,18 @@
 <template>
-	<div>
-		
-	</div>
+	<footer class="footer">
+		<div class="container">
+			<p class="footer__copy">
+				{{ footer.name }} &copy; {{ footer.challenges }}
+			</p>
+		</div>
+	</footer>
 </template>
 
 <script>
 export default {
-	name: 'FooterComponent'
+	name: 'FooterComponent',
+	props:[
+		'footer'
+	]
 }
 </script>
