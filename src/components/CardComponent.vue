@@ -1,5 +1,5 @@
 <template>
-	<div class="card">
+	<div class="card animate__animated animate__zoomIn">
         <div class="card__img">
             <img :src="imgUrl" :alt="person.name">
         </div>

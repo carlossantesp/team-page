@@ -1,9 +1,9 @@
 <template>
 	<header class="header">
-		<h1 class="header__title">
+		<h1 class="header__title animate__animated animate__fadeIn">
 			{{ titleHeader }}
 		</h1>
-		<div class="header__description">
+		<div class="header__description animate__animated animate__fadeIn">
 			<h2 class="header__description__title">
 				{{ title }}
 			</h2>
