@@ -1,9 +1,7 @@
 <template>
-  <div id="app" class="wrapper">
+  <div id="app" class="wrapper container">
     <HeaderComponent />
-    <div class="main">
-      <ListCardsComponent class="container" />
-    </div>
+    <ListCardsComponent class="main" />
     <FooterComponent :footer="footer" />
   </div>
 </template>

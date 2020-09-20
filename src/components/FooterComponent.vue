@@ -1,10 +1,8 @@
 <template>
 	<footer class="footer">
-		<div class="container">
-			<p class="footer__copy">
-				{{ footer.name }} &copy; {{ footer.challenges }}
-			</p>
-		</div>
+		<p class="footer__copy">
+			{{ footer.name }} &copy; {{ footer.challenges }}
+		</p>
 	</footer>
 </template>
 

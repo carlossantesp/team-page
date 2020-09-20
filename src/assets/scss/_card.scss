@@ -1,0 +1,26 @@
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    &:nth-child(2n+2){
+        margin-top: var(--space-xlg);
+    }
+    &__img{
+        width: 85%;
+        img{
+            width: 100%;
+            display: block;
+        }
+    }
+    &__title{
+        margin: var(--space-sm) 0;
+    }
+    &__subtitle{
+        position: absolute;
+        writing-mode: vertical-lr;
+        text-transform: uppercase;
+        right: 0;
+        top: 0;
+    }
+}

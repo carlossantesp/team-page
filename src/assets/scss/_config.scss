@@ -1,0 +1,11 @@
+@import '~normalize.css';
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--fontPrimary);
+    font-size: var(--sizeBase);
+    line-height: 1.6;
+}
